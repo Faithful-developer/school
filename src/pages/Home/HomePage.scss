@@ -1,0 +1,39 @@
+a{
+  text-decoration: none;
+}
+
+.header{
+  background: #ffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 30px 0;
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+      font-size: 25px;
+      color: #FF9900;
+      font-weight: bold;
+    }
+    .header-linkers{
+      display: flex;
+      align-items: center;
+      list-style: none;
+      li{
+        a{
+          color: #2F281E;
+          margin: 0 20px;
+          font-size: 15px;
+          transition: all ease 0.5s;
+          &:last-child{
+            margin-right: 0;
+          }
+          &:hover{
+            color: #FF9900;
+          }
+        }
+      }
+    }
+  }
+}
